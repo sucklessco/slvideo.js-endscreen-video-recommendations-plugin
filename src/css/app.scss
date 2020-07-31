@@ -1,0 +1,40 @@
+@import 'loading-spinner';
+@import 'controls';
+
+div.slvideojs.endscreen-video-recommendations-plugin {
+	overflow: hidden;
+	background-color: #000;
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	max-width: 100%;
+
+	.ui-container {
+		position: relative;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+
+		.ui-elements {
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+	}
+
+	&.fullscreen {
+		background-color: #000;
+	}
+
+	.hidden {
+		display: none !important;
+	}
+
+	.invisible {
+		visibility: hidden !important;
+	}
+}

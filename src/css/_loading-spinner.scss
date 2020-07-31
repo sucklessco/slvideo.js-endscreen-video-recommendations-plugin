@@ -1,0 +1,29 @@
+div.slvideojs {
+	.loading-spinner {
+		top: 0;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		// 1 more than the poster-image
+		z-index: 201;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.animation {
+			border: 10px solid rgba(0, 0, 0, 0.3);
+			border-top: 10px solid rgba(25, 207, 133, 0.4);
+			border-radius: 50%;
+			width: 128px;
+			height: 128px;
+			animation: gorilla-videoplayer-loading-spin 2s linear infinite;
+		}
+
+		@keyframes gorilla-videoplayer-loading-spin {
+			0% { transform: rotate(0deg); }
+			100% { transform: rotate(360deg); }
+		}
+	}
+
+}
+

@@ -1,0 +1,18 @@
+div.gorilla-videoplayer .ui-container .ui-elements .progress-bar {
+	background-color: rgba(0, 0, 0, 0.3);
+	transition: all .2s ease;
+	height: 48px;
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	height: 5px;
+	&.active {
+		bottom: 48px;
+		height: 10px;
+	}
+	.progress {
+		background-color: #19cf85;
+		height: 100%;
+		width: 0;
+	}
+}

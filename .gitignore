@@ -1,0 +1,17 @@
+tags
+TAGS
+/dist
+node_modules
+.env
+dev.html
+dev.js
+.s3config.json
+.eslintcache
+*.swp
+*.swo
+*.orig
+*.log
+test/dist/*
+.sass-cache
+.nyc_output
+/coverage
